@@ -37,5 +37,10 @@ public class Helper {
 		return customeformat.format(currdate);
 		
 	}
+	public static void WindowSwitch()
+	{
+		
+	}
+	
 
 }
