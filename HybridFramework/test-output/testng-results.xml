@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-12-16T13:08:53 IST" name="Default suite" finished-at="2021-12-16T13:09:08 IST" duration-ms="14883">
+  <suite started-at="2021-12-20T18:15:17 IST" name="Suite" finished-at="2021-12-20T18:15:33 IST" duration-ms="16160">
     <groups>
     </groups>
-    <test started-at="2021-12-16T13:08:53 IST" name="Default test" finished-at="2021-12-16T13:09:08 IST" duration-ms="14883">
+    <test started-at="2021-12-20T18:15:17 IST" name="Test" finished-at="2021-12-20T18:15:33 IST" duration-ms="16160">
       <class name="com.els.testcases.LoginTestCase">
-        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-16T13:08:52 IST" name="setupSuite" finished-at="2021-12-16T13:08:53 IST" duration-ms="968" status="PASS">
+        <test-method is-config="true" signature="setupSuite()[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-20T18:15:16 IST" name="setupSuite" finished-at="2021-12-20T18:15:17 IST" duration-ms="980" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setupSuite -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-16T13:08:53 IST" name="setup" finished-at="2021-12-16T13:08:57 IST" duration-ms="4470" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-20T18:15:17 IST" name="setup" finished-at="2021-12-20T18:15:21 IST" duration-ms="4732" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginApp()[pri:1, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-16T13:08:57 IST" name="loginApp" finished-at="2021-12-16T13:09:01 IST" duration-ms="4260" status="PASS">
+        <test-method signature="loginApp()[pri:1, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-20T18:15:21 IST" name="loginApp" finished-at="2021-12-20T18:15:30 IST" duration-ms="8931" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginApp -->
-        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-16T13:09:01 IST" name="teardownMethod" finished-at="2021-12-16T13:09:07 IST" duration-ms="5123" status="PASS">
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-20T18:15:30 IST" name="teardownMethod" finished-at="2021-12-20T18:15:32 IST" duration-ms="1372" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -30,7 +30,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method signature="logout()[pri:1, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-16T13:09:07 IST" name="logout" finished-at="2021-12-16T13:09:07 IST" duration-ms="172" status="FAIL">
+        <test-method signature="logout()[pri:2, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-20T18:15:32 IST" name="logout" finished-at="2021-12-20T18:15:32 IST" duration-ms="298" status="FAIL">
           <exception class="org.openqa.selenium.InvalidSelectorException">
             <message>
               <![CDATA[invalid selector: Unable to locate an element with the xpath expression //*[@id="userNav-menuItems"]/a[5]1 because of the following error:
@@ -38,10 +38,10 @@ SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="us
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-ARQFP0U', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+System info: host: 'DESKTOP-ARQFP0U', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\shail\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 88123b767251ba301dc0ed1d8d889790
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\shail\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c373fd4ea4d4109e571a0489cd2dce1
 *** Element info: {Using=xpath, value=//*[@id="userNav-menuItems"]/a[5]1}]]>
             </message>
             <full-stacktrace>
@@ -50,10 +50,10 @@ SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//*[@id="us
   (Session info: chrome=96.0.4664.110)
 For documentation on this error, please visit: http://seleniumhq.org/exceptions/invalid_selector_exception.html
 Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
-System info: host: 'DESKTOP-ARQFP0U', ip: '192.168.0.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
+System info: host: 'DESKTOP-ARQFP0U', ip: '192.168.0.9', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\shail\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55938}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 88123b767251ba301dc0ed1d8d889790
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.110, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\shail\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55347}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c373fd4ea4d4109e571a0489cd2dce1
 *** Element info: {Using=xpath, value=//*[@id="userNav-menuItems"]/a[5]1}
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:78)
@@ -109,22 +109,22 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- logout -->
-        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-16T13:09:07 IST" name="teardownMethod" finished-at="2021-12-16T13:09:08 IST" duration-ms="766" status="PASS">
+        <test-method is-config="true" signature="teardownMethod(org.testng.ITestResult)[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-20T18:15:32 IST" name="teardownMethod" finished-at="2021-12-20T18:15:33 IST" duration-ms="730" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=logout status=FAILURE method=LoginTestCase.logout()[pri:1, instance:com.els.testcases.LoginTestCase@a3d8174] output={null}]]]>
+                <![CDATA[[TestResult name=logout status=FAILURE method=LoginTestCase.logout()[pri:2, instance:com.els.testcases.LoginTestCase@a3d8174] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardownMethod -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-16T13:09:08 IST" name="TearDown" finished-at="2021-12-16T13:09:08 IST" duration-ms="199" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.els.testcases.LoginTestCase@a3d8174]" started-at="2021-12-20T18:15:33 IST" name="TearDown" finished-at="2021-12-20T18:15:33 IST" duration-ms="237" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- com.els.testcases.LoginTestCase -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -32,7 +32,7 @@ public class LoginTestCase extends Base{
 	}
 	
 	
-	@Test(priority=1)
+	@Test(priority=2)
 	public void logout()
 	{
 		logger=report.createTest("Log out Salesforce");

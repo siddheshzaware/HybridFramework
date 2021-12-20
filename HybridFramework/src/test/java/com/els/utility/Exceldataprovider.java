@@ -11,7 +11,7 @@ public class Exceldataprovider {
 	XSSFWorkbook wb;
 	public Exceldataprovider()
 	{
-		File src=new File("C:\\Users\\shail\\eclipse-workspace\\HybridFramework\\TestData\\data.xlsx");
+		File src=new File("C:\\Users\\shail\\git\\HybridFramework\\HybridFramework\\TestData\\data.xlsx");
 		try {
 		FileInputStream fis=new FileInputStream(src);
 		

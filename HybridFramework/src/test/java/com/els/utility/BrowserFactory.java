@@ -9,7 +9,7 @@ public class BrowserFactory {
 	{
 		if(Bname.equals("chrome"))
 		{
-			System.setProperty("webdriver.chrome.driver","C:\\Users\\shail\\eclipse-workspace\\HybridFramework\\Configuration\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\shail\\git\\HybridFramework\\HybridFramework\\Configuration\\chromedriver.exe");
 			driver=new ChromeDriver();
 		}
 		else if(Bname.equals("Ie"))

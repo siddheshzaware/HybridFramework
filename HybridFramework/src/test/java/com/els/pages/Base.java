@@ -45,7 +45,7 @@ public class Base {
 	public void setup()
 	{
 		driver=BrowserFactory.StartApplication(driver,"chrome","https://pumaenergyemea--emdve2e23p.my.salesforce.com/");
-		Cf.getBrowser();
+		//Cf.getBrowser();
 		
 	}
 	
