@@ -14,7 +14,7 @@ public class BrowserFactory {
 		}
 		else if(Bname.equals("Ie"))
 		{
-			System.out.println("not supported ");
+			System.out.println("not supported ");//testing
 		}
 		//driver.manage().timeouts().pageLoadTimeout(30,Timeout.seconds(0));
 		driver.manage().window().maximize();
