@@ -16,10 +16,10 @@ public class BrowserFactory {
 		{
 			System.out.println("not supported ");//testing
 		}
-		//driver.manage().timeouts().pageLoadTimeout(30,Timeout.seconds(0));
+		//driver.manage().timeouts().pageLoadTimeout(30,TimeUnit.seconds(0));
 		driver.manage().window().maximize();
 		driver.get(Url);
-		//driver.manage().timeouts().implicitlyWait(30, Timeout.seconds(10));
+		//driver.manage().timeouts().implicitlyWait(30, TimeUnit.seconds(10));
 		
 		return driver;
 		

@@ -13,7 +13,7 @@ public class Logout {
 		this.driver=ldriver;
 	}
 	@FindBy(xpath="//*[@id=\"userNavLabel\"]")WebElement user;
-	@FindBy(xpath="//*[@id=\"userNav-menuItems\"]/a[5]1")WebElement logout;
+	@FindBy(xpath="//*[@id=\"userNav-menuItems\"]/a[5]")WebElement logout;
 	public void Logout()
 	{
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);

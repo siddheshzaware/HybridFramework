@@ -26,7 +26,7 @@ public class Helper {
 			e.printStackTrace();
 			
 		}
-		System.out.print(screenshot);
+		
 		return screenshot;
 		
 	}
